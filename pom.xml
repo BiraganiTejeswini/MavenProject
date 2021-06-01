@@ -8,6 +8,7 @@
 		<version>2.5.0</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
+	<packaging>war</packaging>
 	<groupId>com.hcl</groupId>
 	<artifactId>SpringBootHibernate</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
@@ -64,6 +65,7 @@
 	</dependencies>
 
 	<build>
+		<finalName>Restuarant</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
